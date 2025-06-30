@@ -1,0 +1,115 @@
+/* Doris (Lisi) Johnson 6/22/25  Midterm Project*/
+
+
+/* Image Banners */
+.banner {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin-bottom: 1.25rem;
+    line-height: 0;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    max-height: 25rem;
+    object-fit: cover;
+    display: block;
+}
+
+/* Body */
+body {
+    background-color: #f3e9d2;
+    color: #2e2e2e;
+    font-family: 'Arial', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+/* Header */
+header {
+    background-color: #a44a3f;
+    color: #fff8e7;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #3b5e4c;
+    color: #ffffff;
+    list-style-type: none;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+/* Navigation Text */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styles for the links in the Navigation */
+nav a:link {
+    color: #ffffff;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+/* Navigation Visited Link */
+nav a:visited {
+    color: #ffffff;
+    background-color: #fff;
+}
+
+/* Navigation Hover */
+nav a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+/* Main */
+main {
+    background-color: #ffffff;
+    padding: 2rem;
+    min-height: 25rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Images */
+img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: #5e8ca4;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+/* Footer Link Styles */
+footer a:link {
+    color: #ffffff;
+    text-align: center;
+}
