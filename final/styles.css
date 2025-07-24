@@ -1,0 +1,134 @@
+/* Doris (Lisi) Johnson 7/23/25 Final Project*/
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #A3C6C4;
+    padding: 10px 0;
+}
+
+header img.banner {
+    width: 100%;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    background-color: #4A7C7B;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #78B1AF;
+}
+
+#wrapper {
+    flex: 1;
+    padding: 20px;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+h1, h2 {
+    font-size: 2em;
+    color: #4A7C7B;
+}
+
+ul {
+    list-style-type: square;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #E0D5D5;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+/* Form Styles */
+form {
+    padding: 20px;
+}
+
+label {
+    display: inline-block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"], input[type="reset"] {
+    width: auto;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #45a049;
+}
+
+
+
+/* Media Query for Phone-Sized Viewports */
+@media (max-width: 600px) {
+    #wrapper {
+        width: 95%;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    h1, h2 {
+        font-size: 1.5em;
+    }
+
+    form {
+        padding: 15px;
+    }
+}

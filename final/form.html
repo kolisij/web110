@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--Doris (Lisi) Johnson 7/23/25 Final Project-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bots Form</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            form {
+                margin-top: 20px;
+                padding: 20px;
+                background-color: #f4f4f4;
+                border-radius: 5px;
+            }
+
+            label {
+                font-size: 1.2em;
+            }
+
+            input, textarea, select {
+                width: 100%;
+                padding: 8px;
+                margin: 8px 0;
+            }
+
+            input[type="submit"], input[type="reset"] {
+                width: auto;
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+
+            input[type="submit"]:hover, input[type="reset"]:hover {
+                background-color: #45a049;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="form.html">Form</a></li>
+                    <li><a href="credits.html">Credits</a></li>
+                </ul>
+            </nav>
+            <img src="botimage.png" alt="Bots Image" class="banner">
+        </header>
+        <div id="wrapper">
+            <section class="form-content">
+                <h1>Submit Your Experience with Bots</h1>
+                <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="favorite-bot">Favorite Bot Type:</label>
+                    <select id="favorite-bot" name="favorite-bot">
+                        <option value="chatbot">Chatbot</option>
+                        <option value="automation-bot">Automation Bot</option>
+                        <option value="AI-assistant">AI Assistant</option>
+                        <option value="Other">Other-Please Specify Below</option>
+                    </select>
+
+                    <label for="experience">Experience:</label>
+                    <textarea id="experience" name="experience" rows="4" required></textarea>
+
+                    <label for="subscribe">Would you like to subscribe to our Newsletter?</label>
+                    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+
+                    <label for="newsletter">Newsletter Preference:</label>
+                    <input type="radio" id="daily" name="newsletter" value="daily">
+                    <label for="daily">Daily</label>
+                    <input type="radio" id="weekly" name="newsletter" value="weekly">
+                    <label for="weekly">Weekly</label>
+
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </form>
+            </section>
+        </div>
+        <footer id="footer">
+            <small>
+            <em>
+            Copyright &copy; 2025 JCCC Web Development and Digital Media
+            <br><a href="mailto:djohn180@stumail.jccc.edu">doris.johnson@stumail.jccc.edu</a>
+            </em>
+            </small>
+        </footer>
+    </body>
+</html>
